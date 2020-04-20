@@ -1,0 +1,213 @@
+"background": [
+		{
+			"name": "Planar Nomad",
+			"source": "Kobold Press",
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"survival": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Arcana}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Cartographer's Tools"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A diary, scrapbook, or small box with mementos of your travels, traveler’s clothes, a walking stick (quarterstaff), blanket, and 10 gp in unusual coinage."
+						}
+					]
+				},
+				{
+					"name": "Feature: Catalogue of Worlds",
+					"type": "entries",
+					"entries": [
+						"You have heard stories all your life from other planar nomads. This gives you almost instant recognition of any world you stumble into. You might not know its name, but you know its basic features such as alignments (if any), climate, main inhabitants, known hazards, and where other planar travelers might gather. These are things that would be common knowledge among planar nomads and nothing that could not otherwise be learned from a few days of exploration."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Planar nomads are a myriad and motley bunch. They have their own community and at first may seem like outsiders, but their one unifying characteristic is the ability to adapt to wherever they are despite or because of where they have come from.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am consumed with a desire to see and experience new things."
+								],
+								[
+									"2",
+									"I bond quickly to new friends and lose those bonds just as quickly should we be separated."
+								],
+								[
+									"3",
+									"I constantly compare what I am seeing to what I have seen or experienced before."
+								],
+								[
+									"4",
+									"I have heard a story about everything and will tell you if you do not stop me."
+								],
+								[
+									"5",
+									"I feel uncomfortable staying in one place for too long."
+								],
+								[
+									"6",
+									"I always travel light—anything I cannot carry is something I do not need."
+								],
+								[
+									"7",
+									"I am always looking around as if everything is new and I trust none of it."
+								],
+								[
+									"8",
+									"I know that anything is possible, so I am quick to believe almost anything."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I want to experience everything. (Chaotic)"
+								],
+								[
+									"2",
+									"The secrets of the gods are out there—if we can just find the right place to look. (Neutral)"
+								],
+								[
+									"3",
+									"A group is not defined by its physical space, but its shared bonds. (Good)"
+								],
+								[
+									"4",
+									"No one can tell me where to be or what to do. (Chaotic)"
+								],
+								[
+									"5",
+									"The treasures of the multiverse are mine for the taking. (Evil)"
+								],
+								[
+									"6",
+									"There is a divine plan in the shape of the planes if I can just find it. (Lawful)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									My traveling companions keep me safe, and I must return the favor."
+								],
+								[
+									"2",
+									"I was separated from someone important to me, and I long to see that person again."
+								],
+								[
+									"3",
+									"I once found paradise, and part of me is still there."
+								],
+								[
+									"4",
+									"It is my duty to make sure that others may travel as freely as I do."
+								],
+								[
+									"5",
+									I am haunted by something I once saw on a plane far away."
+								],
+								[
+									"6",
+									"I love that which is strange and different."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I have no sense of the importance of property and do not respect others’ property."
+								],
+								[
+									"2",
+									"I do not take advice—no one has had the experiences I have.	"
+								],
+								[
+									"3",
+									"I am prone to overindulge on new intoxicants."
+								],
+								[
+									"4",
+									"My first instinct when things go bad is to run."
+								],
+								[
+									"5",
+									"I quickly condemn others for what I perceive are close-minded views."
+								],
+								[
+									"6",
+									I’ll do anything just for the chance to see something new."
+								]
+							]
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"Cartographer's Tools": true,
+				}
+			]
+		}
+	]
